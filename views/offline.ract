@@ -1,0 +1,13 @@
+<div id="offline" class="lock-screen">
+    <div class="vertical">
+        <div class="horizontal">
+            <i class="fa fa-power-off"></i>
+            <div class="body">
+                <div class="message">You are offline.</div>
+                <div class="buttons">
+                    <a href="javascript:;" on-click="workoffline" class="huge blue btn">Work Offline</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

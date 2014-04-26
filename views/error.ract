@@ -1,0 +1,15 @@
+<div id="error" class="lock-screen">
+    <div class="vertical">
+        <div class="horizontal">
+            <i class="fa fa-warning"></i>
+            <div class="body">
+                <div class="message">{{ message }}</div>
+                <div class="buttons">
+                {{# buttons }}
+                    <a href="{{ url }}" class="huge blue btn">{{ text }}</a>
+                {{/ buttons }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

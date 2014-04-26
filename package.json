@@ -1,0 +1,30 @@
+{
+    "name": "mox-lockscreen",
+    "version": "0.1.0",
+    "description": "Lock screen and overlay module within the Mox system",
+    "main": "index.js",
+    "scripts": {
+        "test": "browserify --debug -e browserify.js -o ./test/vendor/build.js -t ractify && echo 'open http://localhost:3000' && ./node_modules/.bin/serve test/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/TeachBoost/mox-lockscreen.git"
+    },
+    "author": "Mike Gioia <mike@particlebits.com> (https://particlebits.com/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TeachBoost/mox-lockscreen/issues"
+    },
+    "homepage": "https://github.com/TeachBoost/mox-lockscreen",
+    "dependencies": {
+        "ractive" : "*",
+        "ractify" : "*"
+    },
+    "devDependencies": {
+        "mocha" : "*",
+        "chai" : "*",
+        "browserify" : "*",
+        "jquery" : "*",
+        "serve" : "*"
+    }
+}
