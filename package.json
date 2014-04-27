@@ -4,6 +4,7 @@
     "description": "Lock screen and overlay module within the Mox system",
     "main": "index.js",
     "scripts": {
+        "build": "browserify --debug -e browserify.js -o ./test/vendor/build.js -t ractify",
         "test": "browserify --debug -e browserify.js -o ./test/vendor/build.js -t ractify && echo 'open http://localhost:3000' && ./node_modules/.bin/serve test/"
     },
     "repository": {
