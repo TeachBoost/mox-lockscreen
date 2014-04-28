@@ -1,6 +1,6 @@
 {
     "name": "mox-lockscreen",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Lock screen and overlay module within the Mox system",
     "main": "index.js",
     "scripts": {
@@ -19,7 +19,8 @@
     "homepage": "https://github.com/TeachBoost/mox-lockscreen",
     "dependencies": {
         "ractive" : "*",
-        "ractify" : "*"
+        "ractify" : "*",
+        "jquery" : "*"
     },
     "devDependencies": {
         "mocha" : "*",
