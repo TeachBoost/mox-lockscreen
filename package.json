@@ -1,6 +1,6 @@
 {
     "name": "mox-lockscreen",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Lock screen and overlay module within the Mox system",
     "main": "index.js",
     "scripts": {
