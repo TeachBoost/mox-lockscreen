@@ -41,4 +41,24 @@ describe( 'Lockscreen', function () {
         $error.remove();
     });
 
+    it( 'should hide the loading screen', function () {
+        var $loading = $( '<div/>', { id: 'loading' } )
+            .appendTo( 'body' );
+        expect( $( '#loading' ).length )
+            .to.equal( 1 );
+        expect( Lockscreen.hideLoading( 0 ) )
+            .to.equal( true );
+        expect( $( '#loading' ).is( ':visible' ) )
+            .to.equal( false );
+        $loading.remove();
+        expect( $( '#loading' ).length )
+            .to.equal( 0 );
+    });
+
+    it( 'should set lock class on body', function () {
+        Lockscreen.setLock();
+        expect( $( 'body' ).hasClass( 'with-global-lock' ) )
+            .to.equal( true );
+    });
+
 });
