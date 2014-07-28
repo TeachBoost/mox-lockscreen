@@ -6,7 +6,7 @@
  */
 
 // dependencies
-var Ractive = require( 'ractive/build/ractive.runtime' ),
+var Ractive = require( 'ractive' ),
     $ = require( 'jquery' );
 
 // library

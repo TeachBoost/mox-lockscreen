@@ -18,15 +18,18 @@
     },
     "homepage": "https://github.com/TeachBoost/mox-lockscreen",
     "dependencies": {
-        "ractive" : "*",
-        "ractify" : "*",
-        "jquery" : "*"
+        "ractive": "*",
+        "ractify": "*",
+        "jquery": "*"
     },
     "devDependencies": {
-        "mocha" : "*",
-        "chai" : "*",
-        "browserify" : "*",
-        "jquery" : "*",
-        "serve" : "*"
+        "mocha": "*",
+        "chai": "*",
+        "browserify": "*",
+        "jquery": "*",
+        "serve": "*"
+    },
+    "browser": {
+        "ractive": "./node_modules/ractive/ractive-legacy.runtime.js"
     }
 }
